@@ -26,7 +26,7 @@ const characters = [
     },
     {
         id: 6,
-        name: "MECHA GODZILLA",
+        name: "MECHAGODZILLA",
         img: "https://http2.mlstatic.com/D_NQ_NP_655952-MLU70948336048_082023-O.webp",
     },
     {
