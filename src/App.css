@@ -46,3 +46,24 @@ h1, h2{
   background-color: rgba(255, 157, 0, 0.413);
   cursor: pointer;
 }
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Centraliza os ícones horizontalmente */
+  gap: 20px; /* Espaçamento entre os ícones */
+  margin-top: 20px; /* Margem superior */
+}
+
+.social-icons a {
+  color: rgb(86, 4, 86); /* Cor dos ícones */
+  text-decoration: none; /* Remove sublinhado dos links */
+  transition: color 0.3s ease; /* Transição suave de cor */
+}
+
+.social-icons a:hover {
+  color: #fff; /* Cor dos ícones ao passar o mouse */
+}
+
+p{
+ color: rgb(86, 4, 86);
+}

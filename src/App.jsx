@@ -34,25 +34,27 @@ function App() {
 
   function submitAnswer(event) {
     event.preventDefault();
-    if (input.toUpperCase() === chosenCharacter.name) {
+    if(!input){
+      alert('Please fill up your answer');
+      return;
+    }
+    if (input.toUpperCase().trim() === chosenCharacter.name) {
       setScore(score + 1);
       saveDataToLocalStorage("@score", String(score + 1));
-      setAnswerFeedback("You got it! 🤩");
+      setAnswerFeedback(`You got it! 🤩 I'm "${chosenCharacter.name}"`);
     } else {
-      setAnswerFeedback("Wrong answer! 😕");
+      setAnswerFeedback(`Wrong answer! 😕 I'm "${chosenCharacter.name}"`);
     }
-    setQuestionsLeft(questionsLeft - 1)
+    setQuestionsLeft(questionsLeft === 0? 0 : questionsLeft - 1)
     saveDataToLocalStorage('@questions-left', String(questionsLeft - 1));
     setTimeout(() => {
       window.location.reload();
     }, 3000);
     if (questionsLeft <= 0) {
-      alert(`End of game! Your score: ${score}`);
-      // setScore(0);
-      // setQuestionsLeft(10);
+      setTimeout(() => {
+        alert(`End of game! \nYour score: ${score}`);;
+      }, 2000);
       localStorage.clear();
-      // saveDataToLocalStorage("@score", String(score));
-      // saveDataToLocalStorage("@questions-left", String(questionsLeft));
     }
     console.log(questionsLeft);
   }
@@ -79,11 +81,21 @@ function App() {
             name="fav_language"
             placeholder="Your answer"
             value={input}
+            required
           />
           <br />
           <button onClick={submitAnswer}>Submit answer</button>
         </form>
       </div>
+      <div>
+            <footer className="social-icons">
+                <a href="https://www.linkedin.com/in/everton-peres-bb6694101/" target="_blank" className="fab fa-linkedin fa-2x"></a>
+                <a href="https://github.com/aquinoefomm" target="_blank" className="fab fa-github fa-2x"></a><br />
+                
+            </footer>
+            <p>Dedicated to my son <strong>Lucas Ávila</strong></p>
+            <p>Developed with love by <strong>Everton de Aquino Peres</strong></p>
+        </div>
     </div>
   );
 }
