@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-guess-game/static/css/main.66a00e3c.css",
-    "main.js": "/react-guess-game/static/js/main.584d823f.js",
-    "static/media/guessss.png": "/react-guess-game/static/media/guessss.7a95a60f3683508f3827.png",
-    "index.html": "/react-guess-game/index.html",
-    "main.66a00e3c.css.map": "/react-guess-game/static/css/main.66a00e3c.css.map",
-    "main.584d823f.js.map": "/react-guess-game/static/js/main.584d823f.js.map"
+    "main.css": "/react-guess-game-v2/static/css/main.262a0025.css",
+    "main.js": "/react-guess-game-v2/static/js/main.584d823f.js",
+    "static/media/guessss.png": "/react-guess-game-v2/static/media/guessss.7a95a60f3683508f3827.png",
+    "index.html": "/react-guess-game-v2/index.html",
+    "main.262a0025.css.map": "/react-guess-game-v2/static/css/main.262a0025.css.map",
+    "main.584d823f.js.map": "/react-guess-game-v2/static/js/main.584d823f.js.map"
   },
   "entrypoints": [
-    "static/css/main.66a00e3c.css",
+    "static/css/main.262a0025.css",
     "static/js/main.584d823f.js"
   ]
 }
