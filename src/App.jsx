@@ -52,9 +52,10 @@ function App() {
     }, 3000);
     if (questionsLeft <= 0) {
       setTimeout(() => {
-        alert(`End of game! \nYour score: ${score}`);;
+        alert(`End of game! \nYour score: ${Number(retrieveData("@score"))}`);
+        localStorage.clear();
       }, 2000);
-      localStorage.clear();
+      
     }
     console.log(questionsLeft);
   }
