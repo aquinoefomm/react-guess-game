@@ -69,7 +69,7 @@ function App() {
       </div>
       <div className="container">
         <h1>Questions left: {questionsLeft}</h1>
-        <h1>{answerFeedback === ''? "Who am I": answerFeedback}</h1>
+        <h1>{answerFeedback === ''? "Who am I?": answerFeedback}</h1>
         <img src={chosenCharacter.img} alt={chosenCharacter.name} />
         <form onSubmit={submitAnswer}>
           <input
