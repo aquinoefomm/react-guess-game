@@ -272,7 +272,7 @@ const characters = [
         {
         id: 55,
         name: "PAULINE",
-        img: "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fpauline-what-is-it-for-mario-a-friend-ex-girlfriend-or-other-v0-y3yzxij65m3b1.jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3Dbe91ca976f901c5681b7840ba609568e94f43b82&rdt=58720"
+        img: "https://i0.wp.com/sourcegaming.info/wp-content/uploads/2021/07/Super-Mario-Odyssey-Mayor-Pauline.png?resize=360%2C360"
         },
         {
         id: 56,
