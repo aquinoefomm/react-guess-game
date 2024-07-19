@@ -116,7 +116,7 @@ const characters = [
     },
     {
         id: 24,
-        name: "SODA POPINKSI",
+        name: "SODA POPINSKI",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVRm1sCSwu_EpRl607ujI3xMwonxJxLLqtGQ&s",
     },
     {
