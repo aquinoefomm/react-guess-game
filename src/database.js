@@ -21,7 +21,7 @@ const characters = [
     },
     {
         id: 5,
-        name: "METATON",
+        name: "METTATON",
         img: "https://w7.pngwing.com/pngs/14/50/png-transparent-undertale-mettaton-games-undertale-thumbnail.png",
     },
     {
