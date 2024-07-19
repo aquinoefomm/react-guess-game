@@ -199,6 +199,136 @@ const characters = [
         name: "RIDLEY",
         img: "https://upload.wikimedia.org/wikipedia/en/9/93/Ridley_Super_Smash_Bros_Ultimate.png",
     },
+    {
+        id: 41,
+        name: "AGATHA",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo_gXWbSW7ZtaqZYfkJzOtX2PD8Xojq92JNQ&s" 
+        },
+        {
+        id: 42,
+        name: "MURDER MONKEY",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNhSyWUBj5t345f0rm_wRvtGIDRsIWB6scsg&s"
+        },
+        {
+        id: 43,
+        name: "LUCKY THE RABBIT",
+        img: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e22f9447-ebc5-4591-bf24-fc3fa178e5d2/detrw8k-66ebd86d-1e8e-47b7-a95f-eb1c64718ca6.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2UyMmY5NDQ3LWViYzUtNDU5MS1iZjI0LWZjM2ZhMTc4ZTVkMlwvZGV0cnc4ay02NmViZDg2ZC0xZThlLTQ3YjctYTk1Zi1lYjFjNjQ3MThjYTYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-mFBgJU7TtXwuHkR59UyZhxfRYbAyfdYfZwnxOJGMmk"
+        },
+        {
+        id: 44,
+        name: "MALAK",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp95EX9tqcQHR_L-KsQxpeHbUoxVDMzLt2bQ&s"
+        },
+        {
+        id: 45,
+        name: "AMY ROSE",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXXCbsYDG4ymd2zbDceU3YDt7McWqqnA4wOA&s"
+        },
+        {
+        id: 46,
+        name: "METAL SONIC",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpfGohrys5-vutC_RECUMU_txmgB-TyTJmAw&s"
+        },
+        {
+        id: 47,
+        name: "KNUCKLES",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIJ52dUHvu5F7NdRQIoJQkJxy2qLcDYA1aSQ&s"
+        },
+        {
+        id: 48,
+        name: "SHADOW",
+        img: "https://i.pinimg.com/736x/97/34/2f/97342f776d7716999961a82b4780810c.jpg"
+        },
+        {
+        id: 49,
+        name: "SILVER",
+        img: "https://w7.pngwing.com/pngs/228/567/png-transparent-sonic-the-hedgehog-shadow-the-hedgehog-silver-the-hedgehog-sonic-unleashed-hedgehog-animals-sonic-the-hedgehog-vertebrate-thumbnail.png"
+        },
+        {
+        id: 50,
+        name: "GORIMONDO",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMleQKtjROnO-IiZfcT7R0lEbWtVLo17imtw&s"
+        },
+        {
+        id: 51,
+        name: "ELFILIN",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd8dZivfZqdFBKty_2UqHye4Hhow0-gGx4Vw&s"
+        },
+        {
+        id: 52,
+        name: "BOO",
+        img: "https://w7.pngwing.com/pngs/220/149/png-transparent-white-ghost-illustration-super-mario-bros-new-super-mario-bros-super-mario-3d-land-nintendo-s-face-super-mario-bros-hand-thumbnail.png"
+        },
+        {
+        id: 53,
+        name: "KAMEK",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxmjSbEd0MTcL-WnqNE8lPiFCiDrUdhgnlkg&s"
+        },
+        {
+        id: 54,
+        name: "LAKITU",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2E_9SH7ZT4VbeCNhimJVjO4si7tvfxLsMRQ&s"
+        },
+        {
+        id: 55,
+        name: "PAULINE",
+        img: "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fpauline-what-is-it-for-mario-a-friend-ex-girlfriend-or-other-v0-y3yzxij65m3b1.jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3Dbe91ca976f901c5681b7840ba609568e94f43b82&rdt=58720"
+        },
+        {
+        id: 56,
+        name: "POM POM",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr0PWuwFzFCcxNpbCW-tb2n_6Lm7l7SbAPWg&s"
+        },
+        {
+        id: 57,
+        name: "BOOM BOOM",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQenQJ-UJOrqqvXzbTNVhGyT8cEzb3gUdsBgA&s"
+        },
+        {
+        id: 58,
+        name: "CRANKY KONG",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOrEkFAy5Ifixjq95WB2Vq0zqfDv8Yu-A1_9c1jOSTpkrGl8JbftZuhKkCMUercOwdAXI&usqp=CAU"
+        },
+        {
+        id: 59,
+        name: "FUNKY KONG",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6_bzEPhihffmnhPw-mQeAmkA_sW3d0RZzsA&s"
+        },
+        {
+        id: 60,
+        name: "CHUNKY KONG",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUYja_MJSna1j-a4Ak3OacCa9PAw8TRF4_f5rNxuDuZJjXdLncTqgVW3p9N12dZSvhPXA&usqp=CAU"
+        },
+        {
+        id: 61,
+        name: "DIXIE KONG",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimilR9n3_DVuP3BU0STeeGohKupepaQRDZg&s"
+        },
+        {
+        id: 62,
+        name: "WANDER",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYrtynhZVQ0vB-0z47Cuc76qcpTIsYPmhVSA&s"
+        },
+        {
+        id: 63,
+        name: "DORMIN",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxYJgR3gsYOJ_5HAyhKtIW8BNr_tEH5kVvZg&s"
+        },
+        {
+        id: 64,
+        name: "MALUS",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaQ90vUCIQbf4p0HD5yKchRsvhHbiGgLwwBw&s"
+        },
+        {
+        id: 65,
+        name: "GAIUS",
+        img: "https://pm1.aminoapps.com/7673/d997951da111a6f1022f564337e65cf76fcf5763r1-267-400v2_00.jpg"
+        },
+        {
+        id: 66,
+        name: "GODZILLA",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLovObrNTaRWed18X5Gj-ymQuCu9pzL4TXFEebrW9mWKaRaR4QEp9753BUBn6XewJmPhI&usqp=CAU"
+        },
 ]
 
 export default characters;
