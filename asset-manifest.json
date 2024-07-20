@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-guess-game/static/css/main.66a00e3c.css",
-    "main.js": "/react-guess-game/static/js/main.bb4e84ae.js",
+    "main.js": "/react-guess-game/static/js/main.db284e4e.js",
     "static/media/guessss.png": "/react-guess-game/static/media/guessss.7a95a60f3683508f3827.png",
     "index.html": "/react-guess-game/index.html",
     "main.66a00e3c.css.map": "/react-guess-game/static/css/main.66a00e3c.css.map",
-    "main.bb4e84ae.js.map": "/react-guess-game/static/js/main.bb4e84ae.js.map"
+    "main.db284e4e.js.map": "/react-guess-game/static/js/main.db284e4e.js.map"
   },
   "entrypoints": [
     "static/css/main.66a00e3c.css",
-    "static/js/main.bb4e84ae.js"
+    "static/js/main.db284e4e.js"
   ]
 }
