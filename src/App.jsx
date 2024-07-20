@@ -7,7 +7,7 @@ function App() {
   const [chosenCharacter, setChosenCharacter] = useState({});
   const [answerFeedback, setAnswerFeedback] = useState("");
   const [input, setInput] = useState("");
-  const [questionsLeft, setQuestionsLeft] = useState(10);
+  const [questionsLeft, setQuestionsLeft] = useState(9);
 
   useEffect(() => {
     setChosenCharacter(
@@ -17,7 +17,7 @@ function App() {
     setQuestionsLeft(
       retrieveData("@questions-left")
         ? Number(retrieveData("@questions-left"))
-        : 10
+        : 9
     );
   }, [chosenCharacter]);
 
@@ -75,7 +75,7 @@ function App() {
         <h1>{answerFeedback === ''? "Who am I?": answerFeedback}</h1>
         <img src={chosenCharacter.img} alt={chosenCharacter.name} />
         <form onSubmit={submitAnswer}>
-          <input
+          <input autoFocus
             onChange={handleChange}
             type="text"
             id="answer"
